@@ -2,7 +2,7 @@ from odoo import fields, models, api
 
 class EstatePropertyType(models.Model):
     _name = "estate.property.type"
-    _description = "Descrizione del secondo modello del modulo di Antonio Donadio"
+    _description = "Descrizione del secondo modello del modulo di Antonio D."
     _order = "sequence, name"
 
 
