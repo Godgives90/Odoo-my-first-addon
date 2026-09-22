@@ -5,7 +5,7 @@ from odoo.exceptions import ValidationError
 
 class EstatePropertyOffer(models.Model):
     _name = "estate.property.offer"
-    _description = "Descrizione del quarto modello del modulo di Antonio Donadio"
+    _description = "Descrizione del quarto modello del modulo di Antonio D."
     _order = "price desc"
 
 
