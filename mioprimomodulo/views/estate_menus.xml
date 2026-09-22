@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem 
+        id="estate_menu_root" 
+        name="Beni immobiliari"
+        web_icon="mioprimomodulo,static/description/icon.png">
+
+        <menuitem 
+            id="estate_first_level_menu" 
+            name="Pubblicità">
+
+            <menuitem 
+                id="estate_menu_action" 
+                action="action_estate_property"/>
+
+        </menuitem>
+        
+        <menuitem 
+            id="estate_type_first_level_menu" 
+            name="Configurazione">
+
+            <menuitem 
+                id="estate_type_menu_action" 
+                action="action_estate_property_type"/>
+
+            <menuitem 
+                id="estate_tag_menu_action" 
+                action="action_estate_property_tag"/>
+       
+        </menuitem>
+
+    </menuitem>
+
+</odoo>
