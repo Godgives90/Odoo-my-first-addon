@@ -5,7 +5,7 @@ from odoo.tools import float_utils
 
 class EstateProperty(models.Model):
     _name = "estate.property"
-    _description = "Descrizione del primo modello del modulo di Antonio Donadio con la speranza che questo mi faccia riavere un lavoro!"
+    _description = "Descrizione del primo modello del modulo di Antonio D."
     _order = "id desc"
 
     
